@@ -1,0 +1,69 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 2
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 2
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430926366
+driver will ramp up in  1 seconds
+will stop test at time 1430926967
+seed for 55625:f2620700 : 2804051771
+seed for 55625:f25ff700 : 2803439323
+seed for 55625:f25de700 : 2803538420
+seed for 55625:f25bd700 : 2803769537
+seed for 55625:f259c700 : 2803004726
+seed for 55625:f257b700 : 2803875034
+seed for 55625:f255a700 : 2803574748
+seed for 55625:f2539700 : 2803666637
+seed for 55625:f2518700 : 2803634687
+seed for 55625:f24f7700 : 2802620650
+seed for 55625:f24d6700 : 2802647965
+seed for 55625:f24b5700 : 2802690696
+seed for 55625:f2494700 : 2802728376
+seed for 55625:f2473700 : 2801976659
+seed for 55625:f2452700 : 2802755969
+seed for 55625:f1502700 : 2753044834
+seed for 55625:f14e1700 : 2751498313
+seed for 55625:f14c0700 : 2751664964
+seed for 55625:f149f700 : 2751765041
+seed for 55625:f147e700 : 2751728896
+terminals started...
+driver is exiting normally

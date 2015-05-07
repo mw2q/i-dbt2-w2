@@ -1,0 +1,503 @@
+LOG:  database system was shut down at 2015-05-06 17:32:32 CEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  deadlock detected
+DETAIL:  Process 55586 waits for ShareLock on transaction 976749; blocked by process 55588.
+	Process 55588 waits for ShareLock on transaction 976744; blocked by process 55586.
+	Process 55586: FETCH ALL IN mycursor
+	Process 55588: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9310,235) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55655 waits for ShareLock on transaction 1006729; blocked by process 55737.
+	Process 55737 waits for ShareLock on transaction 1006722; blocked by process 55655.
+	Process 55655: FETCH ALL IN mycursor
+	Process 55737: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9747,75) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55580 waits for ShareLock on transaction 1127744; blocked by process 55592.
+	Process 55592 waits for ShareLock on transaction 1127742; blocked by process 55580.
+	Process 55580: FETCH ALL IN mycursor
+	Process 55592: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (13313,1) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55576 waits for ShareLock on transaction 1178919; blocked by process 55586.
+	Process 55586 waits for ShareLock on transaction 1178924; blocked by process 55576.
+	Process 55576: FETCH ALL IN mycursor
+	Process 55586: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (13998,176) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55725 waits for ShareLock on transaction 1192267; blocked by process 55733.
+	Process 55733 waits for ShareLock on transaction 1192271; blocked by process 55725.
+	Process 55725: FETCH ALL IN mycursor
+	Process 55733: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9636,193) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 1258013; blocked by process 55584.
+	Process 55584 waits for ShareLock on transaction 1258016; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55584: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (3803,13) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55572 waits for ShareLock on transaction 1357375; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 1357371; blocked by process 55572.
+	Process 55572: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (14988,14) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55582 waits for ShareLock on transaction 1358408; blocked by process 55590.
+	Process 55590 waits for ShareLock on transaction 1358406; blocked by process 55582.
+	Process 55582: FETCH ALL IN mycursor
+	Process 55590: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (15015,3) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55588 waits for ShareLock on transaction 1365837; blocked by process 55737.
+	Process 55737 waits for ShareLock on transaction 1365834; blocked by process 55588.
+	Process 55588: FETCH ALL IN mycursor
+	Process 55737: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (15009,122) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55737 waits for ShareLock on transaction 1367940; blocked by process 55745.
+	Process 55745 waits for ShareLock on transaction 1367934; blocked by process 55737.
+	Process 55737: FETCH ALL IN mycursor
+	Process 55745: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (15087,25) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55725 waits for ShareLock on transaction 1418635; blocked by process 55592.
+	Process 55592 waits for ShareLock on transaction 1418636; blocked by process 55725.
+	Process 55725: FETCH ALL IN mycursor
+	Process 55592: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (14779,248) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55590 waits for ShareLock on transaction 1561805; blocked by process 55582.
+	Process 55582 waits for ShareLock on transaction 1561798; blocked by process 55590.
+	Process 55590: FETCH ALL IN mycursor
+	Process 55582: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (7899,204) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55745 waits for ShareLock on transaction 1590545; blocked by process 55572.
+	Process 55572 waits for ShareLock on transaction 1590539; blocked by process 55745.
+	Process 55745: FETCH ALL IN mycursor
+	Process 55572: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9135,18) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55729 waits for ShareLock on transaction 1622701; blocked by process 55725.
+	Process 55725 waits for ShareLock on transaction 1622702; blocked by process 55729.
+	Process 55729: FETCH ALL IN mycursor
+	Process 55725: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (10641,72) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55590 waits for ShareLock on transaction 1659106; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 1659109; blocked by process 55590.
+	Process 55590: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (10742,244) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55733 waits for ShareLock on transaction 1690383; blocked by process 55586.
+	Process 55586 waits for ShareLock on transaction 1690385; blocked by process 55733.
+	Process 55733: FETCH ALL IN mycursor
+	Process 55586: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (11017,58) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55688 waits for ShareLock on transaction 1788512; blocked by process 55578.
+	Process 55578 waits for ShareLock on transaction 1788511; blocked by process 55688.
+	Process 55688: FETCH ALL IN mycursor
+	Process 55578: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (3202,13) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 1796682; blocked by process 55584.
+	Process 55584 waits for ShareLock on transaction 1796681; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55584: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (10127,23) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55580 waits for ShareLock on transaction 1833044; blocked by process 55588.
+	Process 55588 waits for ShareLock on transaction 1833043; blocked by process 55580.
+	Process 55580: FETCH ALL IN mycursor
+	Process 55588: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (17180,42) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55592 waits for ShareLock on transaction 1894181; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 1894184; blocked by process 55592.
+	Process 55592: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (2397,80) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55572 waits for ShareLock on transaction 1970606; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 1970607; blocked by process 55572.
+	Process 55572: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while locking tuple (2847,39) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 2024180; blocked by process 55576.
+	Process 55576 waits for ShareLock on transaction 2024179; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55576: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (3483,129) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55729 waits for ShareLock on transaction 2119835; blocked by process 55745.
+	Process 55745 waits for ShareLock on transaction 2119837; blocked by process 55729.
+	Process 55729: FETCH ALL IN mycursor
+	Process 55745: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (179,62) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55594 waits for ShareLock on transaction 2129871; blocked by process 55745.
+	Process 55745 waits for ShareLock on transaction 2129867; blocked by process 55594.
+	Process 55594: FETCH ALL IN mycursor
+	Process 55745: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4875,126) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55729 waits for ShareLock on transaction 2197723; blocked by process 55594.
+	Process 55594 waits for AccessExclusiveLock on tuple (5545,91) of relation 19257 of database 19232; blocked by process 55580.
+	Process 55580 waits for ShareLock on transaction 2197725; blocked by process 55729.
+	Process 55729: FETCH ALL IN mycursor
+	Process 55594: FETCH ALL IN mycursor
+	Process 55580: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (2840,179) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55729 waits for ShareLock on transaction 2243794; blocked by process 55572.
+	Process 55572 waits for ShareLock on transaction 2243801; blocked by process 55729.
+	Process 55729: FETCH ALL IN mycursor
+	Process 55572: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (5415,242) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55582 waits for ShareLock on transaction 2310604; blocked by process 55572.
+	Process 55572 waits for ShareLock on transaction 2310600; blocked by process 55582.
+	Process 55582: FETCH ALL IN mycursor
+	Process 55572: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (6790,289) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55582 waits for ShareLock on transaction 2316998; blocked by process 55745.
+	Process 55745 waits for ShareLock on transaction 2317006; blocked by process 55582.
+	Process 55582: FETCH ALL IN mycursor
+	Process 55745: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (7526,85) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55576 waits for ShareLock on transaction 2340904; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 2340920; blocked by process 55576.
+	Process 55576: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4205,13) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55576 waits for ShareLock on transaction 2349246; blocked by process 55592.
+	Process 55592 waits for ShareLock on transaction 2349245; blocked by process 55576.
+	Process 55576: FETCH ALL IN mycursor
+	Process 55592: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (884,16) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55580 waits for ShareLock on transaction 2365483; blocked by process 55588.
+	Process 55588 waits for ShareLock on transaction 2365479; blocked by process 55580.
+	Process 55580: FETCH ALL IN mycursor
+	Process 55588: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9628,18) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 2369079; blocked by process 55592.
+	Process 55592 waits for ShareLock on transaction 2369077; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55592: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9461,36) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 2398321; blocked by process 55572.
+	Process 55572 waits for ShareLock on transaction 2398318; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55572: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9798,14) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55733 waits for ShareLock on transaction 2399270; blocked by process 55586.
+	Process 55586 waits for ShareLock on transaction 2399265; blocked by process 55733.
+	Process 55733: FETCH ALL IN mycursor
+	Process 55586: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9811,22) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55741 waits for ShareLock on transaction 2504500; blocked by process 55584.
+	Process 55584 waits for ShareLock on transaction 2504506; blocked by process 55741.
+	Process 55741: FETCH ALL IN mycursor
+	Process 55584: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (9652,140) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55729 waits for ShareLock on transaction 2506790; blocked by process 55592.
+	Process 55592 waits for ShareLock on transaction 2506792; blocked by process 55729.
+	Process 55729: FETCH ALL IN mycursor
+	Process 55592: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (13184,27) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55584 waits for ShareLock on transaction 2516329; blocked by process 55737.
+	Process 55737 waits for ShareLock on transaction 2516325; blocked by process 55584.
+	Process 55584: FETCH ALL IN mycursor
+	Process 55737: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (165,10) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55749 waits for ShareLock on transaction 2614470; blocked by process 55578.
+	Process 55578 waits for ShareLock on transaction 2614452; blocked by process 55749.
+	Process 55749: FETCH ALL IN mycursor
+	Process 55578: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4091,130) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55688 waits for ShareLock on transaction 2658343; blocked by process 55588.
+	Process 55588 waits for ShareLock on transaction 2658336; blocked by process 55688.
+	Process 55688: FETCH ALL IN mycursor
+	Process 55588: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (3847,37) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55590 waits for ShareLock on transaction 2695568; blocked by process 55749.
+	Process 55749 waits for ShareLock on transaction 2695569; blocked by process 55590.
+	Process 55590: FETCH ALL IN mycursor
+	Process 55749: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (4700,12) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+ERROR:  deadlock detected
+DETAIL:  Process 55584 waits for ShareLock on transaction 2696676; blocked by process 55729.
+	Process 55729 waits for ShareLock on transaction 2696672; blocked by process 55584.
+	Process 55584: FETCH ALL IN mycursor
+	Process 55729: FETCH ALL IN mycursor
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (12466,36) in relation "stock"
+	SQL statement "UPDATE stock
+	SET s_quantity = s_quantity - $1
+	WHERE s_i_id = $2
+	  AND s_w_id = $3"
+STATEMENT:  FETCH ALL IN mycursor
+LOG:  received smart shutdown request
+FATAL:  terminating autovacuum process due to administrator command
+FATAL:  terminating autovacuum process due to administrator command
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
